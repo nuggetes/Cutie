@@ -1,0 +1,60 @@
+@font-face {
+    font-family: baloo;
+    src: url('baloo.bhai-regular.ttf');
+}
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+}
+
+
+body {
+    background-image: url("cutie.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+/* Image holder styles */
+.imgbox {
+        text-align: center;
+    }
+
+
+img.normal {
+    width: 300px;
+    height: auto;
+}
+
+.texx {
+    margin-top: 10px;
+    font-family: baloo;
+    font-size: 36px;
+}
+
+/* Button styles */
+.np {
+    margin-top: 24px;
+    padding: 16px 36px;
+    font-size: 24px;
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    background-color: #1e6bff;
+    color: #ffffff;
+
+    border: 1px solid #000000;
+    border-radius: 10px;
+
+    cursor: pointer;
+    transition: background-color 0.2s, transform 0.2s;
+}
+
+.np:hover {
+    background-color: #1558d6;
+}
+
+.np:active {
+    transform: scale(0.97);
+}

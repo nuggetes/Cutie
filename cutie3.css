@@ -1,0 +1,49 @@
+@keyframes pop {
+    0% {
+        transform: scale(0.9);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+@font-face {
+    font-family: baloo;
+    src: url('baloo.bhai-regular.ttf');
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-image: url("download4.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.cont{
+    width: 100%;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.love {
+    width: 420px;
+    max-width: 90vw;
+}
+
+.ily {
+    animation: pop 0.5s ease-in-out;
+    margin-top: 30px;
+    font-family: baloo;
+    font-size: 48px;
+    font-weight: bold;
+    color: #ff2f6d;
+    text-shadow: 0 0 12px rgba(255, 47, 109, 0.6);
+}
+

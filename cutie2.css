@@ -1,0 +1,53 @@
+@font-face {
+    font-family: baloo;
+    src: url('baloo.bhai-regular.ttf');
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.main {
+    width: 100%;
+    text-align: center;
+    margin-top: 40px;
+}
+
+#img2 {
+    width: 300px;
+}
+
+#text2 {
+    font-family: baloo;
+    font-size: 36px;
+    margin: 20px 0;
+}
+
+.btn-box {
+    position: relative;
+    height: 150px;  
+}
+
+.btn {
+    padding: 14px 30px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 10px;
+}
+
+#yes {
+    background: rgb(50, 226, 50);
+    color: black;
+    border: 1px solid black;
+}
+
+#no {
+    background: red;
+    color: black;
+    border: 1px solid black;
+    position: relative;
+}
